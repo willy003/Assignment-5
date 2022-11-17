@@ -28,19 +28,25 @@ header{
 }
 .button2{
     font-family: sans-serif;
+    font-size:80% ;
     border-radius:20px;
     background-color: rgb(247, 8, 8);
     color:white;
-    padding:10px 15px 10px 15px;
+    padding:15px 15px 10px 15px;
     border:3px solid;
     border-color: rgb(247, 8, 8);
+    margin-bottom: 25px;
+    margin-left: 200px;
+    outline:2px solid red ;
+    text-decoration:none;
 
 }
 .button2:hover{
     background-color:white;
     color:rgb(247, 8, 8);
-    border:10px;
+    border:3px;
     transition: 1s;
+    oi
 }
 .line1{
     font-family:sans-serif;
@@ -62,14 +68,15 @@ h1{
     text-align: justify;
     margin: 20px;
     margin-left: 20%;
-    border-left:50%;
+    border-left:20%;
 }
 #new{
     height: 350px;
     width:700px;
-    float:inline-end;
-    margin-left: 40%;
+    float:inline-start;
+    margin-left: 50%;
     margin-right: 20%;
+    margin-bottom: 50%;
 }
 .what{
     text-decoration: none;
@@ -93,8 +100,8 @@ h1{
     line-height: 25px;
 }
 .about{
-    padding-top: 150px; ;
-    margin-left: 150px;
+    padding-top: 100px; ;
+    margin-left: 125px;
     margin-right: 200px;
     margin-bottom: 200px;
     font-family: sans-serif;
@@ -131,11 +138,13 @@ h1{
     font-family: sans-serif;
     color:black;
     font-style: bold;
+    padding-top: 125px;
 }
 #tech3{
     float:left;
     width:700px;
     height:450;
+    margin-top: 100px;
 }
 #content{
     font-family: sans-serif;
@@ -160,18 +169,23 @@ h1{
 .form2{
     background-color:rgb(242, 242, 242);
     font-size: 15px;
-    font-family: sans-serif;
-
+    font-family: sans-serif; 
 }
 .form3{
     margin:10px;
     padding:15px;
 }
 #submit{
-    
     background-color: orange;
     border:10px solid orange;
     border-radius: 5px;
     font-family: sans-serif;
     color: white;
+}
+.new{
+    padding-left: 125px;
+}
+.line{
+  margin-left: 20px;
+  font-size: 45px;
 }
